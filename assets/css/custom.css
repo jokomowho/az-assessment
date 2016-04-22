@@ -41,7 +41,7 @@ body > .container {
 
 
 /* Index Styling */
-
+  .navbar-default{background-color: rgba(255,255,255, .9);}
   .navbar-nav>li>a{cursor: pointer;}
   .btn-custom{background-color: transparent; border:1px solid #eee; color: #eee;padding-left:2em;padding-right: 2em; font-size: 17px;}
   .btn-custom:hover{color: #777; background-color: #eee;}
