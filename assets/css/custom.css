@@ -45,10 +45,9 @@ body > .container {
   .navbar-nav>li>a{cursor: pointer;}
   .btn-custom{background-color: transparent; border:1px solid #eee; color: #eee;padding-left:2em;padding-right: 2em; font-size: 17px;}
   .btn-custom:hover{color: #777; background-color: #eee;}
-  .h4-banner{font-weight:100; font-size: 19px;}
+  .h4-banner{font-weight:300; font-size: 21px; line-height: 26px;}
   .h2-banner{margin-bottom:1em; margin-top: 2em;}
   .hr-banner{width:40px; border-color:#eee;margin-top:2.5em;margin-bottom: 3em;}
-  .vert-divider{border-right:1px solid #eee;}
   div.container-assessment{padding-left:3%;padding-top:0;}
   .assessment-header{color:#808080;font-weight:300;margin-bottom: 1em; margin-top: 1em;}
   div.assessment-header-container{padding-top:0;}
@@ -142,6 +141,7 @@ body.body-sign-in{
       }
   body{margin-bottom: 500px;}
   h2.h2-banner{margin-bottom:0; margin-top: 0; font-size: 26px;}
+  h4.h4-banner{font-size: 17px;}
   .hr-banner{margin-top:.5em;margin-bottom: .5em;}
     nav.navbar-inverse{background-color: rgba(41,41,41, .9); border-bottom-color: transparent;}
     footer.footer {
