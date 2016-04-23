@@ -84,6 +84,36 @@ div.banner-sign-in{
   .panel-sign-in{padding-bottom: 2em;}
   .panel-sign-in h2, .panel-sign-in h5{color: #6E6561;}
 
+/* Assessment Template */
+div.assessment-banner{
+  background-image:url(../img/dark_circles.png); height:200px; width:100%;padding-left:0;padding-right:0;
+}
+.assessment-h3{
+  margin-top:9em; color:#fff;
+}
+.marquee {
+  overflow: hidden;
+}
+.more-assessments{width:17%; display:inline-block; vertical-align:top; margin-right:1%;}
+.more-assessments-h4{background:#292929;color:#eee;margin-bottom:5px; margin-top:0; padding-left:1em;padding-top:1em;padding-bottom:1em;}
+div.assessment-scroll{width:100%;margin-right:;display:block; vertical-align:; background-color: #fff; margin-top: 1em; cursor: pointer;}
+.assessment-detail{background:#fff;padding-top:2em; padding-left:1.5%; padding-right:1.5%; padding-bottom:2em;width:57%; display:inline-block; vertical-align:top; margin-right:1%;
+  box-shadow:0px 0px 0px 1px #DEDDEB;
+    -webkit-box-shadow:0px 0px 0px 1px #DEDDEB;
+    -moz-box-shadow:0px 0px 0px 1px #DEDDEB;
+    -o-box-shadow:0px 0px 0px 1px #DEDDEB;
+}
+.more-assessment-link{color: #292929;}
+.more-assessment-link:hover{color: #292929;}
+.assessment-scroll .img-response{ height:150px; width:100%; background-repeat: no-repeat;}
+.enrol-now{background-color:#fff;margin-left:;width:20%; display:inline-block; vertical-align:top;padding-left:1%;padding-right:1%;padding-bottom:1em;padding-top: 1em;
+  box-shadow:0px 0px 0px 1px #DEDDEB;
+    -webkit-box-shadow:0px 0px 0px 1px #DEDDEB;
+    -moz-box-shadow:0px 0px 0px 1px #DEDDEB;
+    -o-box-shadow:0px 0px 0px 1px #DEDDEB;
+}
+
+
 
 /* Media Styling */
 
@@ -147,8 +177,18 @@ body.body-sign-in{
     footer.footer {
   height: 400px;
 }
-    body.banner{background-image:url(../img/landing-medium.jpg); width:100%; height:500px;background-position:top center;background-repeat: no-repeat;}
-
+body.banner{background-image:url(../img/landing-medium.jpg); width:100%; height:500px;background-position:top center;background-repeat: no-repeat;}
+.more-assessments{
+  display: none;
+}
+.assessment-detail, .enrol-now{
+  width: 100%;
+  display: block;
+  padding:2em;
+}
+.enrol-now{
+  margin-top: 1em;
+}
 }
 @media(max-width: 640px){
   div.assessment-child{width:45%;display: inline-block;margin-right: 3%;margin-bottom: 1em; vertical-align: top;}
