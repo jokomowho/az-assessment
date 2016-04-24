@@ -76,13 +76,33 @@ code {
 div.banner-sign-in{
   height:768px;
 }
-  form.form-sign-in input.form-control{border:none; box-shadow: none; border-bottom: 1px solid #2B93A8;border-radius: 0;height: 44px;margin-bottom: 2em;}
+  form.form-sign-in input.form-control{border:none; box-shadow: none; border-bottom: 1px solid #dcdcdc;border-radius: 0;height: 44px;margin-bottom: 2em;}
   form.form-sign-in input.form-control:hover, form input.form-control:focus, input.form-control:active{
         box-shadow: none;
       }
   form.form-sign .btn{border-radius: none;}
   .panel-sign-in{padding-bottom: 2em;}
   .panel-sign-in h2, .panel-sign-in h5{color: #6E6561;}
+
+/* Sign UP */
+.form-signup .form-control{
+  
+}
+.form-sign-up label{
+  font-weight: 400;
+  font-size: 14px;
+  color: #6E6561;
+  margin-top: .5em;
+}
+form.form-sign-up input.form-control {border:none; box-shadow: none; border-bottom: 1px solid #dcdcdc;border-radius: 0;margin-bottom:.5em ; margin-top: 0;
+  height: 39px;}
+  form.form-sign-up select.form-control{
+    margin-bottom: 1.2em;
+  height: 39px;
+  }
+  form.form-sign-in input.form-control:hover, form input.form-control:focus, input.form-control:active{
+    border-bottom: 1px solid #2B93A8;
+      }
 
 /* Assessment Template */
 div.assessment-banner{
@@ -150,7 +170,15 @@ div.assessment-scroll{width:100%;margin-right:;display:block; vertical-align:; b
   color: #b4b4b4;
   text-decoration: none;
 }
+@media(min-width: 993px){
+  .body-sign-up{
+   margin-bottom:150px;
+}
+}
 @media(max-width: 992px){
+  .body-sign-up{
+   margin-bottom:700px;
+}
   body{
     margin-bottom: 500px;
   }
