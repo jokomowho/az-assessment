@@ -133,8 +133,65 @@ div.assessment-scroll{width:100%;margin-right:;display:block; vertical-align:; b
     -o-box-shadow:0px 0px 0px 1px #DEDDEB;
 }
 
+/* Profile Styling */
+ .affix-top,.affix{
+  position: static;
+  overflow: hidden;
+}
 
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
 
+#sidebar li.active {
+   /* border:0 #fff solid;*/
+    border-right-width:4px;
+}
+#sidebar li a.active {
+  background-color: #868686;
+  color: #fff;
+}
+#mainCol h2 {
+  padding-top: 10px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    padding-left: 1em;
+    font-size: 22px;
+    background:#868686;color:#fff;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.nav-stacked{
+box-shadow:0px 0px 0px 1px #DEDDEB;
+    -webkit-box-shadow:0px 0px 0px 1px #DEDDEB;
+    -moz-box-shadow:0px 0px 0px 1px #DEDDEB;
+    -o-box-shadow:0px 0px 0px 1px #DEDDEB;
+    margin-bottom: 2em;s
+}
+.nav-stacked li{
+  background-color: #fff;
+}
+.nav-stacked li a{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #868686;
+}
+.bold-table-header{
+  font-weight:600;
+}
+.navbar-text{
+  padding-left: 1.2em;
+}
 /* Media Styling */
 
 @media(min-width: 1361px){
