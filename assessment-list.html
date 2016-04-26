@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>profile</title>
+    <title>Asssessment List</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -20,11 +20,6 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/custom.css" rel="stylesheet">
     <style type="text/css">
-     
- .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
-{
-   border:;
-}
     .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
       margin-left: -7px;
     }
@@ -44,7 +39,7 @@
     <![endif]-->
   </head>
 
-  <body  style="background:#F5F5F5;padding-top:50px;">
+  <body class="login-assessment-body">
 
     <!-- Fixed navbar -->
       <nav class="navigation-top navbar navbar-default navbar-fixed-top">
@@ -73,8 +68,8 @@
         <div class="col-md-3" id="leftCol">
             <ul class="nav nav-stacked" id="sidebar">
               <li><a href="profile.html">Company Profile</a></li>
-              <li><a href="#" class="active">Assessments List</a></li>
-              <li><a href="#">Assessments Purchase History</a></li>
+              <li><a href="assessment-list.html" class="active">Assessments List</a></li>
+              <li><a href="assessment-history.html">Assessments Purchase History</a></li>
             </ul>
           </div>  
           <div class="col-md-9" id="mainCol">
@@ -276,8 +271,8 @@
               <div class="panel-body">
                 <div class="row">
                   <div class="col-md-6">
-                    <h4>No of selected assessments: 0</h4>
-                    <h3>Order Total: N0.00</h3>
+                    <h4>No of selected assessments:</h4>
+                    <h3>0 Assessments Selected</h3>
                   </div>
                   <div class="col-md-6">
                     <select class="form-control" style="width:100%; margin-bottom:1em;" required>
@@ -286,7 +281,7 @@
                       <option>51 - 100 Employees</option>
                       <option>101 - 150 Employees</option>
                     </select>
-                    <a href="#" class="btn btn-info btn-block">Proceed to Checkout</a>
+                    <a href="assessment-purchase-summary.html" class="btn btn-info btn-block">Next <i class="glyphicon glyphicon-arrow-right"></i></a>
                   </div>
                 </div>
                 

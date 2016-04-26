@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="">
 
-    <title>profile</title>
+    <title>Edit Profile</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -21,11 +21,6 @@
     <link href="assets/css/custom.css" rel="stylesheet">
     <style type="text/css">
      
- .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
-{
-   border:none;
-   border-bottom: 1px solid #eee;
-}
     </style>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -52,7 +47,6 @@
             </button>
             <a class="navbar-brand" href="index.html">Assessment A-Z</a>
           </div>
-
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><p class="navbar-text">Welcome! Oladele Abiodun Fojurin (CSC123456789)</p></li>
@@ -60,7 +54,6 @@
 
             </ul>
           </div><!--/.nav-collapse -->
-        </div>
       </nav>
 
     <!-- Begin page content -->
@@ -68,34 +61,100 @@
       <div class="row">
         <div class="col-md-3" id="leftCol">
             <ul class="nav nav-stacked" id="sidebar">
-              <li><a href="#" class="active">Company Profile</a></li>
-              <li><a href="assessment-list.html">Assessments List</a></li>
+              <li><a href="profile.html">Company Profile</a></li>
+              <li><a href="assessment-list.html" class="active">Assessments List</a></li>
               <li><a href="assessment-history.html">Assessments Purchase History</a></li>
             </ul>
           </div>  
           <div class="col-md-9" id="mainCol">
             <br>
-          
-            <h2>Company Profile</h2>
-            <div class="table-responsive">
-              <table class="table table-bordered">
-                <tr>
-                  <td style="padding-left:1.6em;"><span class="bold-table-header">Corporate</span></td>
-                  <td colspan="2">Work Force Group</td>
-                </tr>
-                <tr>
-                  <td width="220" style="padding-left:1.6em;"><h5><span class="bold-table-header"> Company Information </span> </h5><div style="background-image:url('http://placehold.it/120x120?text=Logo'); width:120px; height:120px;background-position:; background-repeat:no-repeat;margin-bottom:1em;margin-top:1em;"></div><a href="#"  onclick="document.getElementById('upload').click(); return false">Click to upload logo</a>
-                    <input type="file" id="upload" name="upload" style="visibility: hidden; width: 1px; height: 1px" multiple />
-                  </td>
-                  <td>
-                    <h5><span class="bold-table-header">Name: </span>Work Force Group</h5>
-                    <h5><span class="bold-table-header">Email: </span>dele@workforce.com</h5>
-                    <h5><span class="bold-table-header">Address: </span>Gbagada</h5>
-                    <h5><span class="bold-table-header">Industry: </span> Human Resources</h5>
-                  </td>
-                  <td><a href="edit-profile.html" class="btn btn-info btn-sm">Edit</a></td>
-                </tr>
-              </table>
+            <h2>Edit Profile</h2>
+            <div class="panel panel-default panel-sign-in">
+              <div class="panel-body">
+                <form class="form-sign-up">
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" class="form-control" id="fname">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" class="form-control" id="lname">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="designation">CHOOSE YOUR DESIGNATION</label>
+                        <select class="form-control">
+                          <option>Choose your designation</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <label for="company">COMPANY</label>
+                        <input type="text" class="form-control" id="company">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <label for="str">STREET ADDRESS</label>
+                        <input type="text" class="form-control" id="str">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="city">CITY</label>
+                        <input type="text" class="form-control" id="city">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="state">STATE</label>
+                        <select class="form-control">
+                          <option>State</option>
+                        </select>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="country">COUNTRY</label>
+                        <select class="form-control">
+                          <option>Country</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="mobile">MOBILE TELEPHONE</label>
+                        <input type="text" class="form-control" id="mobile">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="phone">OFFICE TELEPHONE</label>
+                        <input type="text" class="form-control" id="phone">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="ext">TELEPHONE EXT</label>
+                        <input type="text" class="form-control" id="ext">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="email">EMAIL</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="industry">INDUSTRY</label>
+                        <select class="form-control">
+                          <option>Choose your industry</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="profile.html"type="submit" class="btn btn-info">Update Profile</a>
+                </form>
+              </div>  
             </div>
           </div> 
         </div>
@@ -146,7 +205,7 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type='text/javascript' src='assets/js/jquery.marquee.min.js'></script>
     <script type="text/javascript">
-       
+      
     </script>
   </body>
 </html>

@@ -192,6 +192,21 @@ box-shadow:0px 0px 0px 1px #DEDDEB;
 .navbar-text{
   padding-left: 1.2em;
 }
+.login-assessment-body{
+  background:#F5F5F5;
+  padding-top:50px;
+}
+.table .summary-table{
+  padding-top: 1em;
+}
+table.table td span.summary-total{
+  padding-top: .8em;
+}
+#mainCol table{
+  background:#fff;
+}
+
+
 /* Media Styling */
 
 @media(min-width: 1361px){
