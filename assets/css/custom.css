@@ -213,13 +213,23 @@ table.table td span.summary-total{
   color: #fff;
 }.btn-custom-profile:hover{
   color: #eee;
+  background-color: #9f9f9f;
 }
 .btn:active, .btn:focus {
   box-shadow: none;
   outline: none;
 }
-
-
+.feature-inner-content h5{
+  line-height: 21px;
+  font-size: 15px;
+}
+.badge{
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  color: #969797;
+  font-weight: 400;
+}
+.table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th{background-color: #e4e4e4;}
 /* Media Styling */
 
 @media(min-width: 1361px){
