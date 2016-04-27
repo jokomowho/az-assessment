@@ -20,6 +20,13 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/custom.css" rel="stylesheet">
     <style type="text/css">
+    .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+      margin-left: -7px;
+    }
+    .radio, .checkbox{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
     </style>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -131,9 +138,153 @@
                   <td colspan="2"><span class="bold-table-header pull-right summary-total">Order Total </span></td>
                   <td><h4>N520,000.00</h4></td>
                 </tr>
+                <tr>
+                  <td colspan="3" align="center"><button class="btn btn-default toggle-assessment"> <i class="glyphicon glyphicon-plus"></i> Add More Assessment</button></td>
+                </tr>
               </table>
             </div>
-            <div class="panel panel-default col-md-12 well well-sm" style="background:#fff;">
+            <div class="table-responsive add-more-assessment">
+              <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th width="10">Select</th>
+                    <th>Assessment Name</th>
+                    <th width="10">Select</th>
+                    <th>Assessment Name</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>PTI - Promotional Testing Instrument</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>RPA - Role Profiling Assessment</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>ESA - Employee Survey Assessment</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>SCA - Staff Competency Audit</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>CSA - Customer Service Assessment</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>CPI - Criteria Personality Inventory</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>PKA - Product Knowledge Assessment</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>EEP - Employee Personality Profile</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>LDS - Leadership Development Survey</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>ADS - Assessment Development Center</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>IKA - Institutional Knowledge Assessment</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>PCA - Performance Certificate Assessment</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>PPA - Policy and Procedure Assessment</td>
+                  <td>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                      </label>
+                    </div>
+                  </td>
+                  <td>CAI - Customized Assessment Instrument</td>
+                </tr>
+                <tr>
+                  <td colspan="4"><a href="#" class="btn btn-info btn-done">Done</a></td>
+                </tr>
+              </table>
+            </div>
+            <div class="panel panel-default col-md-12 well well-sm panel-summary" style="background:#fff;">
               <div class="panel-body">
                 <div class="row">
                   <div class="col-md-6">
@@ -196,7 +347,16 @@
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type='text/javascript' src='assets/js/jquery.marquee.min.js'></script>
     <script type="text/javascript">
-      
+      $(function() {
+        $('.toggle-assessment').click(function(){
+          $('.add-more-assessment').show();
+          $('.panel-summary').hide();
+        })
+        $('.btn-done').click(function(){
+          $('.add-more-assessment').hide();
+          $('.panel-summary').show();
+        })
+    });
     </script>
   </body>
 </html>

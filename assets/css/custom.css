@@ -205,6 +205,19 @@ table.table td span.summary-total{
 #mainCol table{
   background:#fff;
 }
+.add-more-assessment{
+  display: none;
+}
+.btn-custom-profile{
+  background-color: #9f9f9f;
+  color: #fff;
+}.btn-custom-profile:hover{
+  color: #eee;
+}
+.btn:active, .btn:focus {
+  box-shadow: none;
+  outline: none;
+}
 
 
 /* Media Styling */
