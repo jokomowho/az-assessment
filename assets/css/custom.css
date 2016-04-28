@@ -41,12 +41,13 @@ body > .container {
 
 
 /* Index Styling */
+  .navbar-inverse .navbar-nav > li > a{text-shadow: 1px 1px 2px rgba(0,0,0,0.25);}
   .navbar-default{background-color: rgba(255,255,255, .9);}
   .navbar-nav>li>a{cursor: pointer;}
   .btn-custom{background-color: transparent; border:1px solid #eee; color: #eee;padding-left:2em;padding-right: 2em; font-size: 17px;}
   .btn-custom:hover{color: #777; background-color: #eee;}
-  .h4-banner{font-weight:300; font-size: 21px; line-height: 26px;}
-  .h2-banner{margin-bottom:1em; margin-top: 2em;}
+  .h4-banner{font-weight:300; font-size: 21px; line-height: 26px;text-shadow: 1px 1px 2px rgba(0,0,0,0.25);}
+  .h2-banner{margin-bottom:1em; margin-top: 2em;text-shadow: 1px 1px 2px rgba(0,0,0,0.25);}
   .hr-banner{width:40px; border-color:#eee;margin-top:2.5em;margin-bottom: 3em;}
   div.container-assessment{padding-left:3%;padding-top:0;}
   .assessment-header{color:#808080;font-weight:300;margin-bottom: 1em; margin-top: 1em;}
@@ -239,6 +240,7 @@ table.table td span.summary-total{
   color: #969797;
   font-weight: 400;
 }
+
 .table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th{background-color: #e4e4e4;}
 /* Media Styling */
 
