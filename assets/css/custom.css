@@ -219,6 +219,12 @@ table.table td span.summary-total{
   box-shadow: none;
   outline: none;
 }
+.feature-subtitle{
+  font-weight:300;color:#777;font-size:21px;
+}
+.feature-hr{
+  width:5%;border-color:#868686
+}
 .feature-inner-content h5{
   line-height: 21px;
   font-size: 15px;
