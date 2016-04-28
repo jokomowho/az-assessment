@@ -222,6 +222,10 @@ table.table td span.summary-total{
 .feature-inner-content h5{
   line-height: 21px;
   font-size: 15px;
+  margin-bottom: 2em;
+}
+.feature-inner-content i{
+  padding-right: .5em;
 }
 .badge{
   background-color: #fff;
