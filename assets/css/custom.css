@@ -143,6 +143,18 @@ div.assessment-scroll{width:100%;margin-right:;display:block; vertical-align:; b
 .contact-body{
   margin-bottom:180px
 }
+.contact-form .form-control{
+  margin-bottom: 2em;
+}
+
+.header-contact{
+  margin-top: 1.2em;
+}
+.panel-form{padding-bottom: .5em;}
+.contact-label{font-weight: 700;}
+.panel-h5{margin-bottom: 2em;}
+.panel-form input.form-control, .panel-form select.form-control{border-radius: 0;height: 44px;}
+
 
 @media (min-width: 979px) {
   #sidebar.affix-top {
