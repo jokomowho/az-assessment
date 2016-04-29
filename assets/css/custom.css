@@ -140,6 +140,10 @@ div.assessment-scroll{width:100%;margin-right:;display:block; vertical-align:; b
   overflow: hidden;
 }
 
+.contact-body{
+  margin-bottom:180px
+}
+
 @media (min-width: 979px) {
   #sidebar.affix-top {
     position: static;
@@ -286,6 +290,13 @@ table.table td span.summary-total{
   .body-sign-up{
    margin-bottom:700px;
 }
+.navbar .container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
   body{
     margin-bottom: 500px;
   }
@@ -297,7 +308,10 @@ table.table td span.summary-total{
 body.body-sign-in{
   margin-bottom: 500px;
 }
-
+.nav-white{background-color: transparent;}
+.contact-body{
+  margin-bottom:450px
+}
 }
 @media (min-width: 768px) {
   .navbar > .container{padding-left: 0;padding-right: 0;}
@@ -328,6 +342,9 @@ body.banner{background-image:url(../img/landing-medium.jpg); width:100%; height:
 }
 .panel-summary .btn-pull-up{
   margin-top: -2.4em;
+}
+.contact-body{
+  margin-bottom:350px
 }
 }
 @media(max-width: 640px){
