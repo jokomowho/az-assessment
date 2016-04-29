@@ -291,7 +291,7 @@
                     <a href="assessment-list.html" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i> Back</a>
                   </div>
                   <div class="col-md-6">
-                    <a href="assessment-purchase-feedback.html" class="btn btn-info pull-right"><i class="glyphicon glyphicon-arrow-right"></i> Proceed to Checkout</a>
+                    <a href="assessment-purchase-feedback.html" class="btn btn-info pull-right btn-pull-up"><i class="glyphicon glyphicon-arrow-right"></i> Proceed to Checkout</a>
                   </div>
                 </div>
                 
@@ -354,6 +354,9 @@
         $('.btn-done').click(function(){
           $('.add-more-assessment').hide();
         })
+        $('.table-responsive').dataTable( {
+        "scrollX": true
+    } );
     });
     </script>
   </body>
