@@ -315,7 +315,7 @@ table.table td span.summary-total{
   height: 400px;
 }
 body.body-sign-in{
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 .nav-white{background-color: transparent;}
 .contact-body{
@@ -334,7 +334,7 @@ body.body-sign-in{
 }
 @media (max-width: 768px){
   body.body-sign-in{
-        margin-bottom: 500px;
+        margin-bottom: 400px;
       }
   h2.h2-banner{margin-bottom:0; margin-top: 0; font-size: 26px;}
   h4.h4-banner{font-size: 17px;}
