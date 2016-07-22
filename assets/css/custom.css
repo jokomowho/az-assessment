@@ -683,6 +683,9 @@ form.form-sign-up input.form-control {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+.inner-template-content h4, h5{
+  color: #FF5B0C;
+}
 .side-sub-header {
   color: #777;
   padding-left: 2em;
