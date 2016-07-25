@@ -291,7 +291,8 @@ body > .container {
   .body-container{
     padding-top:2em;
     padding-bottom:2em;
-    background:#f5f5f5;
+    background:rgba(245,245,245,.9);
+    background-image: url(../img/bg-pattern.png);
   }
   .body-container .col-md-12{
     padding-left:6.5%;
@@ -494,8 +495,9 @@ code {
 .container-help{
   padding-top:1em;
   padding-bottom:1em;
-  background:#f5f5f5;
-  padding-left:6.5%;
+  background:rgba(245,245,245,.9);
+  background-image: url(../img/bg-pattern.png);  padding-left:6.5%;
+  background-position: left;
   padding-right:6.5%;
 }
 .index-help-header{
