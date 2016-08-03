@@ -684,11 +684,11 @@ form.form-sign-up input.form-control {
   padding-right: 3.5em;
   box-shadow: 1px 1px 2px 1px #eee;
 }
-.inner-template-content >h3{
+.inner-template-content-header{
   margin-top:;
   border-bottom:4px solid #FF5B0C;
 }
-.inner-template-content > h3 > span{
+.span-inner-template-content{
   background:#FF5B0C;
   color:#fff;
   padding-left:1em;
