@@ -761,35 +761,33 @@ div.assessment-banner{
   overflow: hidden;
 }
 .more-assessments{
-  width:17%;
-  display:inline-block;
-  vertical-align:top;
-  margin-right:1%;
+  background: ;
+  margin-right:;
 }
 .more-assessments-h4{
   background:#292929;
   color:#eee;
-  margin-bottom:5px;
+  margin-bottom:;
   margin-top:0;
   padding-left:1em;
   padding-top:1em;
   padding-bottom:1em;
 }
 div.assessment-scroll{width:100%;margin-right:;display:block; vertical-align:; background-color: #fff; margin-top: 1em; cursor: pointer;}
-.assessment-detail{background:#fff;padding-top:2em; padding-left:1.5%; padding-right:1.5%; padding-bottom:2em;width:57%; display:inline-block; vertical-align:top; margin-right:1%;
-  box-shadow:0px 0px 0px 1px #DEDDEB;
-    -webkit-box-shadow:0px 0px 0px 1px #DEDDEB;
-    -moz-box-shadow:0px 0px 0px 1px #DEDDEB;
-    -o-box-shadow:0px 0px 0px 1px #DEDDEB;
+.assessment-detail{
+  background:#fff;padding:2em;
+  color: #777;
+  font-weight: 300;
+  font-size: 16px; box-shadow: 1px 1px 2px 1px #d1d1d1;min-height:300px;
+}
+a[href='#link']:hover{
+  text-decoration: none;
 }
 .more-assessment-link{color: #292929;}
 .more-assessment-link:hover{color: #292929;}
 .assessment-scroll .img-response{ height:150px; width:100%; background-repeat: no-repeat;}
 .enrol-now{background-color:#fff;margin-left:;width:20%; display:inline-block; vertical-align:top;padding-left:1%;padding-right:1%;padding-bottom:1em;padding-top: 1em;
-  box-shadow:0px 0px 0px 1px #DEDDEB;
-    -webkit-box-shadow:0px 0px 0px 1px #DEDDEB;
-    -moz-box-shadow:0px 0px 0px 1px #DEDDEB;
-    -o-box-shadow:0px 0px 0px 1px #DEDDEB;
+      box-shadow: 1px 1px 2px 1px #d1d1d1;
 }
 
 /* Profile Styling */
@@ -903,6 +901,8 @@ table.table td span.summary-total{
 .btn-custom-more-assessment{
   background-color: #fff;
   border-radius: 0;
+  border: none;
+  border-top: 1px solid #eee;
 }.btn-custom-more-assessment:hover{
 }
 .btn:active, .btn:focus {
