@@ -43,7 +43,7 @@
 
     <!-- Fixed navbar -->
       <nav class="navigation-top navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid container-fluid-wrap">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -63,15 +63,23 @@
       </nav>
 
     <!-- Begin page content -->
-    <div class="container">
+    <div class="container container-fluid-wrap container-admin">
       <div class="row">
-        <div class="col-md-3" id="leftCol">
-            <ul class="nav nav-stacked" id="sidebar">
-              <li><a href="profile.html">Company Profile</a></li>
-              <li><a href="assessment-list.html" class="active">Assessments List</a></li>
-              <li><a href="assessment-history.html">Assessments Purchase History</a></li>
-            </ul>
-          </div>  
+        <div class="col-md-3" style="padding-left:0;">
+          <div class="services">
+            <div class="side-pane">
+              <h4><i class="glyphicon glyphicon-menu-hamburger"></i> Account</h4>
+            </div>
+            <div class="side-content">
+              <div class="img-response img-rounded" style="background-image:url('http://placehold.it/120x120?text=Logo'); width:120px; height:120px;background-position:; background-repeat:no-repeat;margin-bottom:1em;margin-top:1em;margin-left:10%;"></div>
+              <ul class="nav nav-stacked tab-one-content sidebar">
+                <li><a href="profile.html" > <i class="glyphicon glyphicon-question-sign"></i> Company Profile</a></li>
+                <li><a href="assessment-list.html"> <i class="glyphicon glyphicon-th-list"></i> Assessments List</a></li>
+                <li><a href="assessment-history.html"><i class="glyphicon glyphicon-credit-card"></i> Assessments Purchase History</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> 
           <div class="col-md-9" id="mainCol">
             <br>
             <h2>Assessment Purchase Summary</h2>
