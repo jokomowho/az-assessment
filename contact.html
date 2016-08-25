@@ -16,7 +16,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
     <link href="assets/css/custom.css" rel="stylesheet">
     <style type="text/css">
@@ -37,38 +37,120 @@ h5{font-size: 15px;}
   <body>
 
     <!-- Fixed navbar -->
-      <nav class="navigation-top navbar navbar-default navbar-fixed-top">
-        <div class="container">
+      <div class="container-fluid navbar-contact">
+        <nav class=" navbar navbar-default">
+        <div class="container-fluid">
+          <div id="" class="">
+            <ul class="nav navbar-nav" style="margin-bottom:0;">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" style="margin-bottom:0;">
+               <li><a href="faq.html"><i class="glyphicon glyphicon-question-sign"></i> Faq</a></li>
+               <li><a href="contact.html"><i class="glyphicon glyphicon-phone-alt"></i> Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid container-shrink">
+        <nav class="navigation-top navbar navbar-inverse" style="margin-bottom:0;"> 
+        <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mm" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Assessment A-Z</a>
+            <a class="navbar-brand" href="index.html">PROOF</a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right" >
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="features.html">FEATURES</a></li>
-              <li><a href="#how">HOW WE TEST</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="contact.html">CONTACT US</a></li>
-              <li><a href="sign-in.html">SIGN IN</a></li>
-              <li><a href="sign-up.html">SIGN UP</a></li>
+            <ul class="nav navbar-nav navbar-right">
+              <!--<li><a href="#"><i class="glyphicon glyphicon-home"></i> HOME</a></li>-->
+              <li><a href="#"><i class="fa fa-group"></i> ABOUT</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-lightbulb-o"></i> OUR SOLUTION<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Develop Your Exam</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Job Analysis</a></li>
+                      <li><a href="#">SME</a></li>
+                      <li><a href="#">Item Development</a></li>
+                      <li><a href="#">Test Design</a></li>
+                      <li><a href="#">Content Creation</a></li>
+                      <li><a href="#">Test Construction</a></li>
+                      <li><a href="#">Proof Authoring System</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="#">Manage Your Exam</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Programme Management</a></li>
+                      <li><a href="#">Registration & Scheduling</a></li>
+                      <li><a href="#">Billing & Payment</a></li>
+                      <li><a href="#">Candidate Service</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">Deliver Your Exam</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Test Delivery</a></li>
+                      <li><a href="#">Eligibility</a></li>
+                      <li><a href="#">Secure Testing</a></li>
+                      <li><a href="#">Reporting</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">Grow Your Program</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Test Delivery</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> INDUSTRY SERVED <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                      <li><a href="#">Higher Education</a></li>
+                      <li><a href="#">Finance</a></li>
+                      <li><a href="#">Retail</a></li>
+                      <li><a href="#">Government</a></li>
+                      <li><a href="#">Health Care</a></li>
+                      <li><a href="#">Professional Body</a></li>
+                      <li><a href="#">Regulatory Compliance</a></li>
+                </ul>
+              </li>
+              <li><a href="assessment-to-go.html"><i class="fa fa-graduation-cap"></i> ASSESSMENT-TO-GO</a></li>
+              <li><a href="sign-in.html"><i class="glyphicon glyphicon-log-in"></i> SIGN IN</a></li>
+              <li><a href="sign-up.html"><i class="fa fa-user-plus"></i> SIGN UP</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+    </div>
 
     <!-- Begin page content -->
     <div class="container-fluid assessment-banner"  style="background-image:url(assets/img/phone.jpg); height:180px; max-width:100%;padding-left:0;padding-right:0; background-position:center center; background-size:cover; padding-top:0;">
       <div>
         <div class="assessment-h3">
-            <h3 class="text-center">Contact Us</h3>
+            <h3 class="text-center"></h3>
         </div>
       </div>
+    </div>
+    <div class="container-fluid container-shrink" style="margin-bottom:0;">
+      <ol class="breadcrumb">
+        <li>HOME<span class="angle">&#155; </span></li>
+        <li class="active">CONTACT US</li>
+      </ol>
     </div>
     <div class="container">
       <div class="row">
@@ -130,23 +212,13 @@ h5{font-size: 15px;}
     </div>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container-fluid container-footer">
         <div class="row-footer">
           <div class="footer-content"style="background-image:url('assets/img/world-map.png'); height:auto;background-position:; background-repeat:no-repeat;">
-            <div ></div>
-            <h4>Office</h4>
-            <ul class="nav-footer">
-              <li>Plot 9</li>
-              <li>Gbagada-Oworonshoki Expy, Lagos.</li>
-              <li>Beside UPS</li>
-              <li>100234</li>
-            </ul>
-          </div>
-          <div class="footer-content">
-            <h4>WORKFORCE SELECT</h4>
+            <h4>Quick Links</h4>
             <ul class="nav-footer">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#test">How We Test</a></li>
+              <li><a href="#">About Proof Assessment</a></li>
               <li><a href="faq.html">FAQs</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -157,6 +229,32 @@ h5{font-size: 15px;}
               <li><a href="">Winstitute</a></li>
               <li><a href="">Stratorg</a></li>
               <li><a href="">WorkForce Outsource</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            
+            <div ></div>
+            <h4>Office</h4>
+            <ul class="nav-footer">
+              <li>Plot 9</li>
+              <li>Gbagada-Oworonshoki Expy, Lagos.</li>
+              <li>Beside UPS</li>
+              <li>100234</li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h4>Contact Details</h4>
+            <ul class="nav-footer">
+              <li>Email: info@workforcegroup.com</li>
+              <li>Phone: +234 (0)1 279 8941</li>
+              <li>
+                <ul class="footer-socials" style="margin-bottom:0;">
+                  <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
