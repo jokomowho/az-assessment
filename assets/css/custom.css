@@ -241,7 +241,7 @@ body > .container {
     background-color: #1976D3;
   }
   .middle-banner{
-      background-image:url(../img/middle-banner.png);
+      background-image:url(../img/midl-banner.png);
       width:100%;
       height:400px;
       background-position:center;
@@ -482,7 +482,7 @@ body > .container {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255,255,255,.9)', endColorstr='rgba(255,255,255,.9)', GradientType=0);
 }
 .dropdown-submenu:hover>.dropdown-menu{
-  display:block;
+  display:;
   background-color:RGBA(255, 91, 12, .9);
   color: #fff;
   border-radius: 0;
@@ -765,6 +765,12 @@ form.form-sign-up input.form-control {
 }
 
 /* Assessment Template */
+.hero-assets{
+    margin-top:5.5em;
+    padding-bottom:4em;
+    color:#000;
+    background:rgba(255,255,255,.5);
+  }
 div.assessment-banner{
   background-image:url(../img/dark_circles.png);
   height:200px;
@@ -859,6 +865,14 @@ a[href='#link']:hover{
 }
 
 
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #1976D3;
+    border-color: #1976D3;
+}
+
+
 @media (min-width: 1440px){
   div.banner{
     height: 800px;
@@ -908,6 +922,7 @@ a[href='#link']:hover{
     font-weight: 300;
     margin-bottom: 0;
     border:1px solid #ddd;
+    border-bottom: none;
 }
 #mainCol .panel-default{
   border-radius: 0;
@@ -1076,6 +1091,10 @@ table.table td span.summary-total{
     }
 
     .hero-content{
+      width: 60%;
+      margin-left: 8%;
+    }
+    .hero-assets{
       width: 60%;
       margin-left: 8%;
     }
@@ -1267,6 +1286,9 @@ table.table td span.summary-total{
   height: 290px;
   }
 .hero-content{
+  width: 80%;
+  }
+  .hero-assets{
   width: 80%;
   }
   .header-circle{
