@@ -108,6 +108,9 @@ body > .container {
 }
 
 /* Index Styling */
+.navbar-inverse {
+    border-color: transparent;
+}
 .tabs-details p{
   font-size: 14px;
   text-align: justify;
