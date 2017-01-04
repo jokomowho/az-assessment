@@ -1158,6 +1158,12 @@ table.table td span.summary-total{
   footer.footer {
     height: 200px;
   }
+  div.services{
+  margin-bottom: 2em;
+ }
+ #mainCol{
+  padding-left: 0;
+ }
 }
 
 
@@ -1227,6 +1233,7 @@ table.table td span.summary-total{
   width: 92%;
   display:inline-block;
 }
+
 }
 
 
