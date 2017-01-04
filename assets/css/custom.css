@@ -1307,9 +1307,15 @@ table.table td span.summary-total{
   margin-left: 1%;
   width: 87%;
 }
+.circle-header-text span{
+  font-size: 16px;
+}
 .contents p{
   margin-left: 1%;
   margin-top: 1em;
+}
+.middle-banner-header{
+  width: 60%;
 }
 }
  .slideInDown {
