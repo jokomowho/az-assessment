@@ -109,7 +109,7 @@ body > .container {
 
 /* Index Styling */
 .navbar-inverse {
-    border-color: transparent;
+    border:none;
 }
 .tabs-details p{
   font-size: 14px;
