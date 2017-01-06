@@ -1053,7 +1053,11 @@ table.table td span.summary-total{
 .nav-footer a:hover{
   color: #eee;
 }
-
+.table-backend > thead > tr > th, .table-backend > tbody > tr > th, .table-backend > tfoot > tr > th, .table-backend > thead > tr > td,  .table-backend > tbody > tr > td, .table-backend > tfoot > tr > td
+{
+   border:none;
+   border-bottom: 1px solid #eee;
+}
 
 @media(max-width: 1206px){
   .tabs-details .col-md-3 h3{
