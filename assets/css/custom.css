@@ -417,8 +417,8 @@ body > .container {
     font-size: 24px;
   }
   .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
-    background: RGBA(255, 91, 12, .9);
-    color: #fff;
+    background: #1976D3;
+    color: #FF5B0C;
   }
 
 .navbar-nav > li > .dropdown-menu{
@@ -873,6 +873,10 @@ a[href='#link']:hover{
     background-color: #1976D3;
     border-color: #1976D3;
 }
+div.assessment-banner{
+  background-position:top center;
+  height:550px;
+}
 
 
 @media (min-width: 1440px){
@@ -889,6 +893,12 @@ a[href='#link']:hover{
   .middle-banner-header{
     margin-top: 12em;
  }
+ div.assessment-banner{
+    height: 800px;
+ }
+ .hero-assets{
+    margin-top:12em;
+  }
 }
 
 
